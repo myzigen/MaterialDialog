@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <dimen name="activity_horizontal_margin" tools:ignore="UnusedResources">16dp</dimen>
@@ -71,7 +70,6 @@
     <dimen name="md_preference_content_inset">16dp</dimen>
     <dimen name="md_colorchooser_circlesize">56dp</dimen>
 </resources>
-=======
 <resources>
     <!-- See http://www.google.com/design/spec/components/dialogs.html#dialogs-specs -->
 
@@ -149,4 +147,3 @@
     <dimen name="md_listitem_vertical_margin_choice">8dp</dimen>
 
 </resources>
->>>>>>> branch 'main' of git@github.com:myzigen/MaterialDialog.git
