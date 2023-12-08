@@ -20,7 +20,8 @@
         <item name="android:layout_marginBottom">@dimen/headerMarginVertical</item>
     </style>
 
-    <style name="MD_Light" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+	<style name="MD_Light" parent="Theme.MaterialComponents.Dialog.Alert">
+	<item name="android:textColor">#000000</item>
         <item name="md_divider">@color/md_divider_black</item>
         <item name="md_list_selector">@drawable/md_selector</item>
         <item name="md_btn_stacked_selector">@drawable/md_selector</item>
@@ -28,12 +29,15 @@
         <item name="md_btn_neutral_selector">@drawable/md_btn_selector</item>
         <item name="md_btn_negative_selector">@drawable/md_btn_selector</item>
         <item name="enforceMaterialTheme">true</item>
+        <item name="android:windowIsFloating">true</item>
         <item name="android:windowAnimationStyle">@style/MD_WindowAnimation</item>
         <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.50</item>
         <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:dialogCornerRadius" tools:ignore="newApi">20dp</item>
     </style>
 
-    <style name="MD_Dark" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+    <style name="MD_Dark" parent="Theme.MaterialComponents.Dialog.Alert">
         <item name="md_divider">@color/md_divider_white</item>
         <item name="md_list_selector">@drawable/md_selector_dark</item>
         <item name="md_btn_stacked_selector">@drawable/md_selector_dark</item>
@@ -41,9 +45,12 @@
         <item name="md_btn_neutral_selector">@drawable/md_btn_selector_dark</item>
         <item name="md_btn_negative_selector">@drawable/md_btn_selector_dark</item>
         <item name="enforceMaterialTheme">true</item>
+        <item name="android:windowIsFloating">true</item>
         <item name="android:windowAnimationStyle">@style/MD_WindowAnimation</item>
         <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.50</item>
         <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:dialogCornerRadius" tools:ignore="newApi">18dp</item>
     </style>
 
     <style name="MD_ActionButtonStacked" parent="@style/MD_ActionButton" tools:ignore="NewApi">
