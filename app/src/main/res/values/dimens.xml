@@ -57,7 +57,7 @@
     <dimen name="md_action_corner_radius">5dp</dimen>
     <dimen name="md_divider_height">1dp</dimen>
 
-    <dimen name="md_bg_corner_radius">20dp</dimen>
+    <dimen name="md_bg_corner_radius">0dp</dimen>
     <dimen name="circular_progress_border">4dp</dimen>
     <dimen name="md_listitem_vertical_margin">12dp</dimen>
     <dimen name="md_listitem_vertical_margin_choice">8dp</dimen>
